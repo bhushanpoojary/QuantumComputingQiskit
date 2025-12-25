@@ -7,16 +7,32 @@ Download and install Anaconda from [https://www.anaconda.com/download](https://w
 
 Follow the installation wizard for your operating system (Windows, macOS, or Linux).
 
-### 2. Install Qiskit
+### 2. Install Required Python Packages
 Once Anaconda is installed, open your terminal/command prompt and run:
+
+**Install Qiskit:**
 ```bash
 pip install qiskit
 ```
 
-### 3. Install pylatexenc
-Install the pylatexenc package:
+**Install Qiskit Aer Simulator:**
+```bash
+pip install qiskit-aer
+```
+
+**Install Matplotlib (for visualizations):**
+```bash
+pip install matplotlib
+```
+
+**Install pylatexenc:**
 ```bash
 pip install pylatexenc
+```
+
+**Or install all at once:**
+```bash
+pip install qiskit qiskit-aer matplotlib pylatexenc
 ```
 
 ## Course
